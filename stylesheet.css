@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 header {
-    position: fixed;
+    position: sticky;
     background: white;
     border-radius: 50px;
     z-index:  999;
