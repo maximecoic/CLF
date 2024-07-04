@@ -93,6 +93,7 @@ ul {
 .logo {
   display: flex;
   align-items: center;
+  padding-inline: 10px;
 }
 
 @media (max-width: 767px) {
