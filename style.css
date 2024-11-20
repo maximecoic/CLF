@@ -44,6 +44,6 @@ body {
   transform: translate(-50%, -100%);
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 3em;
   background-color: transparent; /* Remove background */
 }
