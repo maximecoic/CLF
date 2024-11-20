@@ -11,8 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 90vh; /* Maximum height of 90% viewport height */
-  min-height: 300px; /* Minimum height to ensure visibility */
 }
 
 .placeholder {
@@ -25,6 +23,7 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .placeholder img {
