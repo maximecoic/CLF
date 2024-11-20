@@ -11,9 +11,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 90vh; /* Maximum height of 90% viewport height */
+  min-height: 300px; /* Minimum height to ensure visibility */
 }
 
 .placeholder {
+  flex-grow: 1; /* Ensures each placeholder takes up equal space */
   width: 80%;
   aspect-ratio: 21 / 9;
   background-color: #ddd;
@@ -27,7 +30,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 .placeholder p {
