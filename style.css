@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5vh;
 }
 
 .placeholder {
@@ -21,7 +22,6 @@ body {
   background-color: #ddd;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
