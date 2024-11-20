@@ -15,31 +15,28 @@ body {
 
 .placeholder {
   width: 80%;
-  /* Aspect ratio conservé pour une meilleure adaptation */
   aspect-ratio: 21 / 9;
-  background-color: #ddd; /* Gris clair */
+  background-color: #ddd;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  /* Hauteur maximale et minimale */
-  max-height: 200px;
-  min-height: 20vh;
+  position: relative;
 }
 
 .placeholder img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(5px); /* Adjust blur strength as needed */
+  filter: blur(5px);
 }
 
 .placeholder p {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
   font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  background-color: transparent; /* Remove background */
 }
