@@ -3,7 +3,8 @@ html, body {
 }
 
 body {
-  margin: 0;
+  margin-left:5vw;
+  margin-right:5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +24,8 @@ body {
   max-height: 25vh;
   aspect-ratio: 21 / 9;
   background-color: #ddd;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 4vw;
+  box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.6);
   position: relative;
   overflow: hidden;
 }
