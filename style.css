@@ -15,7 +15,7 @@ body {
 
 .placeholder {
   width: 80%;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 21 / 9;
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
