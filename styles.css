@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -14,13 +15,26 @@ body {
 
 .placeholder {
   width: 80%;
-  /* Aspect ratio conservé pour une meilleure adaptation */
   aspect-ratio: 2 / 3;
-  background-color: #ddd; /* Gris clair */
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
   margin-bottom: 20px;
-  /* Hauteur maximale et minimale */
-  max-height: 200px;
-  min-height: 20vh;
+  overflow: hidden;
+}
+
+.placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px); /* Adjust blur strength as needed */
+}
+
+.placeholder p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
